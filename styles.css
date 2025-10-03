@@ -1,0 +1,40 @@
+#content{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40rem;
+    height: 20rem;
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+}
+.mole{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    border-width: 0cap;
+    background-color: grey;
+}
+.mole:active{
+    background-color: orange;
+}
+#restart{
+    margin-top: 1rem;
+    border-width: .01rem;
+    background-color:aliceblue;
+    color:black;
+    width: 3.8rem;
+    height: 2rem;
+    border-radius: .3rem;
+}
+#restart:hover{
+    color: orange;
+}
+.orangeMole{
+    color: orange;
+}
+p{
+    font-size: larger;
+}

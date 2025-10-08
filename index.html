@@ -8,14 +8,19 @@
 </head>
 <body>
     <div id="content">
-    <h1>Whack-a-<span class="orangeMole">Mole!</span></h1>
-    <p>Score:<span class ="orangeMole">   0</span></p>
-   
-  <section id="game-board">
-    <button id="mole-1" class="mole"></button>
-    <button id="mole-2" class="mole"></button>
-    <button id="mole-3" class="mole"></button>
-  </section>
-<button type="reset" id="restart">Restart</button></div>
+        <h1>Whack-a-<span class="orangeMole">Mole!</span></h1>
+        <div id="scoreboard">Score: <span class="orangeMole"><span id="score">0</span></span></div>
+        
+        <section id="game-board">
+            <button id="mole-1" class="mole"></button>
+            <button id="mole-2" class="mole"></button>
+            <button id="mole-3" class="mole"></button>
+        </section>
+        
+        <p id="win-message" style="display:none;">🎉 You Win!</p>
+        <button id="restart-btn" style="display:none;">Restart</button>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>

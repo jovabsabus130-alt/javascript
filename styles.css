@@ -1,40 +1,54 @@
-#content{
+body{
+    background-color: aliceblue;
+}#content {
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 40rem;
+    width: 100%;
     height: 20rem;
-    margin-left: 33.33%;
-    margin-right: 33.33%;
+    overflow: hidden;
 }
-.mole{
+
+#game-board {
+    margin-top: 1rem;
+}
+
+.mole {
     border-radius: 50%;
     width: 5rem;
     height: 5rem;
-    border-width: 0cap;
+    border: none;
     background-color: grey;
+    margin: 0 0.5rem;
 }
-.mole:active{
+
+.mole.active {
     background-color: orange;
 }
-#restart{
+
+#restart-btn {
     margin-top: 1rem;
-    border-width: .01rem;
-    background-color:aliceblue;
-    color:black;
-    width: 3.8rem;
+    border: 1px solid #ccc;
+    background-color: aliceblue;
+    color: black;
+    width: 5rem;
     height: 2rem;
     border-radius: .3rem;
+    cursor: pointer;
 }
-#restart:hover{
+
+#restart-btn:hover {
+    color: white;
+    background-color: orange;
+}
+
+.orangeMole {
     color: orange;
 }
-.orangeMole{
-    color: orange;
-}
-p{
+
+p {
     font-size: larger;
 }
